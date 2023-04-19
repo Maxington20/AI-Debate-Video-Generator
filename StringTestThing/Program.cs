@@ -7,9 +7,13 @@ using FFMpegCore;
 
 public class Program
 {
+    // prompt
+    //can you create a detailed, funny, swear word, and insult filled back and forth between Davis and Jenny about whether mortal kombat is better than street fighter,  making it clear who is speaking when and which style they are speaking in. Davis has the following styles: chat, angry, excited, friendly, cheerful, hopeful, terrified, unfriendly, shouting. Jenny has the same styles. do not include any preamble before or after, just jump right into the start of the debate. the format should be Name (style): dialog. example: Davis (angry): test dialog.   Have them go back and forth at least 10 times each. do not use any styles i have not listed
     public static async Task Main()
     {
-        string content = $"Davis (default): Alright, let's settle this once and for all. Star Trek is infinitely better than Star Wars.\r\n\r\nJenny (excited): What?! Are you kidding me? Star Wars is the ultimate sci-fi adventure!\r\n\r\nDavis (friendly): I respect your opinion, Jenny, but let me explain why Star Trek is superior.\r\n\r\nJenny (hopeful): Go ahead, Davis. I'm listening.\r\n\r\nDavis (cheerful): Well, for starters, the storytelling is much more nuanced and intellectual in Star Trek.\r\n\r\nJenny (default): But Star Wars has epic space battles and lightsaber fights!\r\n\r\nDavis (angry): That's all flashy nonsense! Star Trek explores complex philosophical concepts and ethical dilemmas.\r\n\r\nJenny (unfriendly): Oh, please. Star Trek is boring and preachy. Star Wars is pure entertainment.\r\n\r\nDavis (shouting): You couldn't be more wrong! Star Trek has iconic characters like Captain Kirk and Mr. Spock.\r\n\r\nJenny (chat): But Luke Skywalker and Darth Vader are just as iconic, if not more!\r\n\r\nDavis (terrified): How can you even compare them? The Force is just a cheap plot device.\r\n\r\nJenny (hopeful): Actually, the Force is a metaphor for spirituality and the power of the human spirit.\r\n\r\nDavis (excited): That's ridiculous! Star Trek tackles real-world issues like racism, war, and politics.\r\n\r\nJenny (friendly): Sure, but Star Wars inspires hope and reminds us of the power of good triumphing over evil.\r\n\r\nDavis (default): But Star Trek has an optimistic vision of the future where humanity has overcome its flaws and works towards a better society.\r\n\r\nJenny (angry): And Star Wars has a timeless message about the battle between light and dark!\r\n\r\nDavis (chat): You can't deny that Star Trek has a loyal fanbase and has been around for decades.\r\n\r\nJenny (shouting): And you can't deny that Star Wars has a massive cultural impact and has spawned countless spin-offs and merchandise!\r\n\r\nDavis (unfriendly): But that's just it, Star Wars is all about making money. Star Trek has always been about exploring new ideas and pushing boundaries.\r\n\r\nJenny (cheerful): Well, I guess we'll just have to agree to disagree.\r\n\r\nDavis (hopeful): I guess so. But I still think Star Trek is better.\r\n\r\nJenny (default): And I still think Star Wars is better. \r\n\r\nDavis (unfriendly): You know, Jenny, sometimes I wonder if you even understand the depth and complexity of Star Trek.\r\n\r\nJenny (terrified): And sometimes I wonder if you even have a sense of humor, Davis.\r\n\r\nDavis (angry): Oh, I have a sense of humor, Jenny. It's just not as shallow as your love for Star Wars.\r\n\r\nJenny (chat): Shallow? Have you seen the size of the Star Trek convention crowds compared to the Star Wars ones?\r\n\r\nDavis (hopeful): That just proves my point. Star Wars is for the masses, Star Trek is for the intellectuals.\r\n\r\nJenny (cheerful): You mean the snobs, right?\r\n\r\nDavis (shouting): No, I mean people who appreciate good writing and thoughtful exploration of the human condition!\r\n\r\nJenny (excited): And I mean people who appreciate epic space battles and the power of the Force!\r\n\r\nDavis (default): Well, at least we can agree on one thing. We both have excellent taste in science fiction.\r\n\r\nJenny (angry): Speak for yourself, Davis. You're the one who thinks that watching people sit around and talk about warp engines is exciting.\r\n\r\nDavis (friendly): Hey, it's not just about the warp engines. It's about the relationships and the growth of the characters over time.\r\n\r\nJenny (unfriendly): Right, because we all want to watch a bunch of people in pajamas talking about their feelings for an hour.\r\n\r\nDavis (hopeful): You just don't understand the art of storytelling, Jenny.\r\n\r\nJenny (default): And you don't understand the art of having fun.\r\n\r\nDavis (cheerful): Oh, I have plenty of fun. I just don't need lightsabers and explosions to enjoy myself.\r\n\r\nJenny (shouting): And I don't need boring lectures about science and ethics to be entertained!\r\n\r\nDavis (terrified): Fine, you win. Star Wars is better. Happy now?\r\n\r\nJenny (chat): Ecstatic. But deep down, I know you'll always be a Trekkie at heart, Davis.\r\n\r\nDavis (friendly): And deep down, I know you'll always be a Jedi wannabe, Jenny.";
+        string topic = "Xbox vs Playstation";
+
+        string content = $"Davis (chat): Jenny, PlayStation kicks Xbox's ass any day. Exclusive games? Chef's kiss.\r\n\r\nJenny (excited): Bullshit, Davis! Xbox Game Pass is fucking amazing! A never-ending buffet of games, baby!\r\n\r\nDavis (angry): What a joke! Half those games are ancient! PlayStation has God of War, The Last of Us, and Spider-Man. Suck it, you Xbox fanboy!\r\n\r\nJenny (unfriendly): Listen, you PlayStation douche, I'd rather not blow wads of cash on a few exclusives like some elitist prick!\r\n\r\nDavis (shouting): Oh, please! You're just salty 'cause PlayStation has better graphics, performance, and games. Suck it up, Jenny!\r\n\r\nJenny (cheerful): Aw, Davis, I'm thrilled you love your overpriced, overrated trash box. But I'll stick with Xbox and avoid snobs like you!\r\n\r\nDavis (hopeful): Maybe you'll pull your head out of your ass one day and see that PlayStation is the shit. Till then, have fun with your Xbox mediocrity!\r\n\r\nJenny (angry): You condescending fuck! My Xbox is a beast, unlike your precious little toy console!\r\n\r\nDavis (unfriendly): Cute, Jenny. Keep deluding yourself while I'm here enjoying the best shit your pathetic Xbox can only dream of.\r\n\r\nJenny (terrified): Oh no, Davis! I might miss some exclusives while I have a blast with my affordable, badass gaming machine! The horror!\r\n\r\nDavis (friendly): Fine, Jenny, let's just agree we love gaming, even if we don't see eye to eye on consoles. Truce?\r\n\r\nJenny (hopeful): Alright, Davis. PlayStation and Xbox fans can coexist. Here's hoping the next gen consoles blow our fucking minds!\r\n\r\nDavis (excited): You know what, Jenny? That's the spirit! Let's embrace our differences and see what each console has to offer.\r\n\r\nJenny (cheerful): Hell yeah, Davis! Let's share our favorite games and maybe find some common ground in the process.\r\n\r\nDavis (hopeful): Totally, Jenny. I'll try out some Xbox Game Pass titles, and maybe you can give those PlayStation exclusives a shot.\r\n\r\nJenny (friendly): Deal, Davis! And who knows? We might even find some cross-platform games we can play together.\r\n\r\nDavis (terrified): Woah, playing together? Now that's a scary thought! But hey, I'm game if you are.\r\n\r\nJenny (shouting): Let's do this, Davis! Time to bridge the console divide and show the world that gaming is all about fun and camaraderie!\r\n\r\nDavis (cheerful): Preach it, Jenny! We'll be the shining example of how gamers should unite, regardless of console preferences.\r\n\r\nJenny (unfriendly): Damn straight, Davis. And if anyone talks shit about our newfound friendship, they can shove it!\r\n\r\nDavis (angry): You're right, Jenny! Screw the haters! It's time to make gaming history and leave the console wars behind!\r\n\r\nJenny (excited): We're on the same page now, Davis! Let's show the world that gamers can put their differences aside and come together in the name of fun!";
 
         content = content.Replace("\r", "");
         content = content.Replace(", Davis", " Davis");
@@ -18,19 +22,23 @@ public class Program
         string[] dialogues = content.Split(new string[] { "\n\n" }, StringSplitOptions.None);
 
         var inputFiles = new string[dialogues.Length];
-        var outputFile = $"C:\\Users\\maxhe\\OneDrive\\Pictures\\Saved Pictures\\Debates\\debate-finalAudio.mp4";
+        var outputFile = $"C:\\Users\\maxhe\\OneDrive\\Pictures\\Saved Pictures\\Debates\\{topic}.mp4";
         var jennyImage = $"C:\\Users\\maxhe\\OneDrive\\Pictures\\Saved Pictures\\Debates\\Jenny.png";
         var davisImage = $"C:\\Users\\maxhe\\OneDrive\\Pictures\\Saved Pictures\\Debates\\Davis.png";
         var count = 1;
 
         foreach (var input in dialogues)
-        {
+        {            
             var name = input.Substring(0, input.IndexOf("(")).Trim();
             var speechStyle = input.Substring(input.IndexOf("(") + 1, input.IndexOf(")") - input.IndexOf("(") - 1);
             string dialog = input.Substring(input.IndexOf(":") + 2, input.Length - input.IndexOf(":") - 3);
 
-            Console.WriteLine("The name: " + name + "\n");            
-            Console.WriteLine("The speech style: " + speechStyle + "\n");            
+            dialog = dialog.Replace("</prosody", "</prosody>");
+            dialog = dialog.Replace(">>", ">");
+
+            Console.WriteLine($"Part {count} of {dialogues.Length.ToString()}");
+            Console.WriteLine("The name: " + name);            
+            Console.WriteLine("The speech style: " + speechStyle);            
             Console.WriteLine("The dialog: " + dialog + "\n");
 
             var audioFile = $"C:\\Users\\maxhe\\OneDrive\\Pictures\\Saved Pictures\\Debates\\debate-{count}.wav";
@@ -44,10 +52,19 @@ public class Program
 
             inputFiles[count - 1] = vidOutputFile;
 
+            // delete the audio file once it is no longer needed
+            File.Delete(audioFile);
+
             count++;
         }
 
         FFMpeg.Join(outputFile, inputFiles);
+
+        // delete the inputfiles
+        foreach(var file in inputFiles)
+        {
+            File.Delete(file);
+        }
 
         // CombineWavFiles(inputFiles, outputFile);
     }
